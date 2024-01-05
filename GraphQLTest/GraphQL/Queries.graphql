@@ -1,0 +1,38 @@
+query Planetas {
+  allPlanets {
+   planets {
+     id
+     name
+   }
+  }
+}
+
+query PersonQuery() {
+  allPeople {
+    people {
+     id
+     name
+    }
+  }
+}
+
+query AllInfo {
+  allFilms {
+    films {
+      id
+      title
+      planetConnection {
+        planets {
+          name
+          residentConnection {
+            residents {
+              id
+              name
+              eyeColor
+            }
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "dependencies": {
+    "apollo": "^2.11.1",
+    "get-graphql-schema": "^2.1.2",
+    "punycode": "^2.3.1"
+  }
+}
